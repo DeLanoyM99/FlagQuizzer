@@ -2,6 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
+# Remove all flags that are not official countries
 # URL of the webpage to scrape
 url = "https://www.worldometers.info/geography/alphabetical-list-of-countries/"
 
